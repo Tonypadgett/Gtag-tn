@@ -31,7 +31,7 @@ namespace Maximility.Menu
     public class MenuSettings
     {
 		//The name that will display on the top of the menu (EX: "MAXIMILITY : Main")
-        public static string MenuName = "popeyes V1 TEMPLATE";
+        public static string MenuName = "popeye void V1 TEMPLATE";
 
         //Your menu color. This will be your name color. You can use hex codes or color names.
         public static string MenuColor = "orange";
