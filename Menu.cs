@@ -127,10 +127,10 @@ namespace Maximility.Menu
 
 			//Main Menu List
             Menu.MainMenu = new MenuOption[1];
-            Menu.MainMenu[0] = new MenuOption { DisplayName = "Movement", _type = "submenu", AssociatedString = "Movement" };
-            Menu.Movement[1] = new MenuOption { DisplayName = "ExcelFly", _type = "toggle", AssociatedBool = false };
-            Menu.Movement[0] = new MenuOption { DisplayName = "ExcelFly", _type = "toggle", AssociatedBool = false };
-            Menu.Movement[0] = new MenuOption { DisplayName = "N", _type = "toggle", AssociatedBool = false };
+            Menu.MainMenu[0] = new MenuOption { DisplayName = "not", _type = "submenu", AssociatedString = "Movement" };
+            Menu.Movement[1] = new MenuOption { DisplayName = "not", _type = "toggle", AssociatedBool = false };
+            Menu.Movement[2] = new MenuOption { DisplayName = "not", _type = "toggle", AssociatedBool = false };
+            Menu.Movement[3] = new MenuOption { DisplayName = "Back", _type = "Submeun", AssociatedBool = "Main" };
             
 			//Movement List
             Menu.Movement = new MenuOption[3];
