@@ -9,9 +9,9 @@ using UnityEngine;
 
 namespace Maximility.Menu.Mods.Movement
 {
-    public class FlyMods
+    public class PlatformsMods
     {
-        public static void ExcelFly()
+        public static void PlatformsRight()
         {
             if (EasyInputs.GetPrimaryButtonDown(EasyHand.RightHand))
             {
@@ -24,7 +24,7 @@ namespace Maximility.Menu.Mods.Movement
             }
         }
 
-        public static void TFly()
+        public static void PlatformsLeft()
         {
             if (EasyInputs.GetTriggerButtonDown(EasyHand.LeftHand))
             {
