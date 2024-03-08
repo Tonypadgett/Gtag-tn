@@ -25,6 +25,9 @@ namespace Maximility
 	    	      //Movement Mod Toggles
 			if ( Plugin.not tag ) { not tagMods.not tag(); }
             if ( Plugin.not tag ) { not tagMods.not tag(); }
+			//Movement Mod Toggles
+			if ( Plugin.noclip ) { noclipMods.noclip(); }
+            if ( Plugin.noclip ) { noclipMods.noclip(); }
 	        
         }
 	}
