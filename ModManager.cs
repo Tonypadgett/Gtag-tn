@@ -20,11 +20,11 @@ namespace Maximility
 			if ( Plugin.ExcelFly ) { FlyMods.ExcelFly(); }
             if ( Plugin.TFly ) { FlyMods.TFly(); }
 	               //Movement Mod Toggles
-			if ( Plugin.Excel ) { rainbow monkeMods.rainbow monke(); }
+			if ( Plugin.rainbow monke ) { rainbow monkeMods.rainbow monke(); }
             if ( Plugin.rainbow monke ) { rainbow monkeMods.(); }
 	    	      //Movement Mod Toggles
-			if ( Plugin.ExcelFly ) { FlyMods.ExcelFly(); }
-            if ( Plugin.TFly ) { FlyMods.TFly(); }
+			if ( Plugin.not tag ) { not tagMods.not tag(); }
+            if ( Plugin.not tag ) { not tagMods.not tag(); }
 	        
         }
 	}
