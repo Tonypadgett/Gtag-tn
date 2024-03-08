@@ -15,6 +15,10 @@ namespace Maximility
 		{
 			//Movement Mod Toggles
 			if ( Plugin.ExcelFly ) { FlyMods.ExcelFly(); }
+            if ( Plugin.TFly ) { FlyMods.TFly(); }//Movement Mod Toggles
+			if ( Plugin.ExcelFly ) { FlyMods.ExcelFly(); }
+            if ( Plugin.TFly ) { FlyMods.TFly(); }//Movement Mod Toggles
+			if ( Plugin.Excel ) { rainbow monkeMods.rainbow monke(); }
             if ( Plugin.TFly ) { FlyMods.TFly(); }
         }
 	}
