@@ -20,8 +20,8 @@ namespace Maximility
 			if ( Plugin.ExcelFly ) { FlyMods.ExcelFly(); }
             if ( Plugin.TFly ) { FlyMods.TFly(); }
 	               //Movement Mod Toggles
-			if ( Plugin.rainbow monke ) { rainbow monkeMods.rainbow monke(); }
-            if ( Plugin.rainbow monke ) { rainbow monkeMods.(); }
+			if ( Plugin.rainbowmonke ) { rainbowmonkeMods.rainbowmonke(); }
+            if ( Plugin.rainbowmonke ) { rainbowmonkeMods.(); }
 	    	      //Movement Mod Toggles
 			if ( Plugin.not tag ) { not tagMods.not tag(); }
             if ( Plugin.not tag ) { not tagMods.not tag(); }
