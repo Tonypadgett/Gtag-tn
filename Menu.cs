@@ -125,13 +125,15 @@ namespace Maximility.Menu
 
             #endregion
 		//Main Menu List
-            Menu.MainMenu = new MenuOption[1];
+            Menu.MainMenu = new MenuOption[4];
             Menu.MainMenu[0] = new MenuOption { DisplayName = "void app", _type = "submenu", AssociatedString = "Movement" };
             Menu.MainMenu[1] = new MenuOption { DisplayName = "void app", _type = "submenu", AssociatedString = "Movement" };
+            Menu.MainMenu[2] = new MenuOption { DisplayName = "", _type = "submenu", AssociatedString = "Movement" };
+            Menu.MainMenu[3] = new MenuOption { DisplayName = "Back", _type = "submenu", AssociatedString = "Movement" };
             
 		    
 			//Main Menu List
-            Menu.MainMenu = new MenuOption[1];
+            Menu.MainMenu = new MenuOption[4];
             Menu.MainMenu[0] = new MenuOption { DisplayName = "void app", _type = "submenu", AssociatedString = "Movement" };
             Menu.Movement[1] = new MenuOption { DisplayName = "Noclip", _type = "toggle", AssociatedBool = false };
             Menu.Movement[2] = new MenuOption { DisplayName = "platforms", _type = "toggle", AssociatedBool = false };
