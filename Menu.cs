@@ -126,15 +126,15 @@ namespace Maximility.Menu
             #endregion
 		//Main Menu List
             Menu.MainMenu = new MenuOption[4];
-            Menu.MainMenu[0] = new MenuOption { DisplayName = "void app", _type = "submenu", AssociatedString = "Movement" };
-            Menu.MainMenu[1] = new MenuOption { DisplayName = "void app", _type = "submenu", AssociatedString = "Movement" };
-            Menu.MainMenu[2] = new MenuOption { DisplayName = "not tag", _type = "submenu", AssociatedString = "Movement" };
-            Menu.MainMenu[3] = new MenuOption { DisplayName = "Back", _type = "submenu", AssociatedString = "Movement" };
+            Menu.MainMenu[0] = new MenuOption { DisplayName = " ", _type = "toggle", AssociatedString = false };
+            Menu.MainMenu[1] = new MenuOption { DisplayName = " ", _type = "toggle", AssociatedString = false };
+            Menu.MainMenu[2] = new MenuOption { DisplayName = "not tag", _type = "toggle", AssociatedString = false" };
+            Menu.MainMenu[3] = new MenuOption { DisplayName = "Back", _type = "submenu", AssociatedString = "Main" };
             
 		    
 			//Main Menu List
             Menu.MainMenu = new MenuOption[4];
-            Menu.MainMenu[0] = new MenuOption { DisplayName = "void app", _type = "submenu", AssociatedString = "Movement" };
+            Menu.MainMenu[0] = new MenuOption { DisplayName = "void app", _type = "toggle", AssociatedString = "Movement" };
             Menu.Movement[1] = new MenuOption { DisplayName = "Noclip", _type = "toggle", AssociatedBool = false };
             Menu.Movement[2] = new MenuOption { DisplayName = "platforms", _type = "toggle", AssociatedBool = false };
             Menu.Movement[3] = new MenuOption { DisplayName = "Back", _type = "Submeun", AssociatedBool = "Main" };
