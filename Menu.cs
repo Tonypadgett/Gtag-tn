@@ -127,7 +127,7 @@ namespace Maximility.Menu
 		//Main Menu List
             Menu.MainMenu = new MenuOption[4];
             Menu.MainMenu[0] = new MenuOption { DisplayName = " ", _type = "toggle", AssociatedString = false };
-            Menu.MainMenu[1] = new MenuOption { DisplayName = " ", _type = "toggle", AssociatedString = false };
+            Menu.MainMenu[1] = new MenuOption { DisplayName = "RGB Monkey", _type = "toggle", AssociatedString = false };
             Menu.MainMenu[2] = new MenuOption { DisplayName = "not tag", _type = "toggle", AssociatedString = false" };
             Menu.MainMenu[3] = new MenuOption { DisplayName = "Back", _type = "submenu", AssociatedString = "Main" };
             
