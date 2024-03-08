@@ -34,7 +34,7 @@ namespace Maximility.Menu
         public static string MenuName = "popeye void V1 TEMPLATE";
 
         //Your menu color. This will be your name color. You can use hex codes or color names.
-        public static string MenuColor = "orange";
+        public static string MenuColor = "rainbow";
 
         //Your pointer color. This will be your pointer color (">" color). If you dont want a pointer color just set it as "white".
         public static string PointerColor = "yellow";
